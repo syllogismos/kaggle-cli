@@ -46,7 +46,7 @@ setup(
 
     entry_points={
         'console_scripts': [
-            'kg = kaggle_cli.main:main'
+            'kgn = kaggle_cli.main:main'
         ],
         'kaggle_cli': [
             'submit = kaggle_cli.submit:Submit',
